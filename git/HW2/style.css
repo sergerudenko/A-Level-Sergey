@@ -1,0 +1,32 @@
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+    color: green;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+a[href^="https"]{
+    background-color: red;
+}
+li:last-child {
+    background-color: green;
+  }
+  ul + p {
+    font-size: 26px;
+   }
+   
+   h3:first-child {
+       color: hotpink;
+   }
